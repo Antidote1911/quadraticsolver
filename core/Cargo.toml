@@ -1,0 +1,11 @@
+[package]
+name = "escore"
+version = "0.1.0"
+authors = ["viz <viz@airmail.cc>"]
+edition = "2018"
+
+[lib]
+name = "escore"
+crate-type = ["dylib"]
+
+[dependencies]
