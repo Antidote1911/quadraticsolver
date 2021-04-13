@@ -43,4 +43,16 @@ mod tests {
         assert_eq!(roots.1, 2 as f64);
         assert_eq!(roots.2, -3 as f64);
     }
+    
+    #[test]
+    fn solve2() {
+        let roots = calculate_root(
+            &(1 as f64),
+            &(4 as f64),
+            &(4 as f64),
+        );
+        assert_eq!(roots.0, 0 as f64);
+        assert_eq!(roots.1, -2 as f64);
+        assert_eq!(roots.2, -2 as f64);
+    }
 }

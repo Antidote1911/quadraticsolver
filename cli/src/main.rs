@@ -13,7 +13,7 @@ fn main() {
     let roots = escore::calculate_root(&coeff.0, &coeff.1, &coeff.2);
 
 
-    // if delta is <0
+    // if delta is > 0
     if roots.3 {
         println!("delta is: {}", roots.0);
         println!("Solutions are :");
